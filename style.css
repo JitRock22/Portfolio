@@ -276,7 +276,7 @@ nav ul li a:hover {
 /* ************REsponsive About************ */
 @media screen and (max-width:599.95px){
   .second{
-    height: 900px;
+    height: 500px;
     overflow: hidden;
   }
   .s h2{
@@ -293,7 +293,7 @@ nav ul li a:hover {
 }
 @media screen and(max-width:433px){
   .second{
-    height: 1000px;
+    height: 500px;
     overflow: hidden;
   }
   .s h2{
@@ -311,7 +311,7 @@ nav ul li a:hover {
 /* **********Responsive Education*********** */
 @media screen and (max-width:599.95px){
   .third{
-    height: 900px;
+    height: 500px;
   }
   .e1{
     flex-direction: column;
