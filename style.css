@@ -291,6 +291,23 @@ nav ul li a:hover {
     font-size: px;
   }
 }
+@media screen and(max-width:433px){
+  .second{
+    height: 1000px;
+    overflow: hidden;
+  }
+  .s h2{
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .s1{
+    width: 80%;
+    text-align: center;
+  }
+  .s1 h3{
+    font-size: 12px;
+  }
+}
 /* **********Responsive Education*********** */
 @media screen and (max-width:599.95px){
   .third{
