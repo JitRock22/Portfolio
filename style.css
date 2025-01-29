@@ -171,7 +171,7 @@ nav ul li a:hover {
   }
 }
 /* ***********Responsive Navbar*********** */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 475px) {
   .third{
     height: 900px;
     overflow: hidden;
@@ -274,7 +274,7 @@ nav ul li a:hover {
   color: rgba(128, 128, 128, 0.753);
 }
 /* ************REsponsive About************ */
-@media screen and (max-width:500px){
+@media screen and (max-width:475px){
   .second{
     height: 600px;
     overflow: hidden;
@@ -295,7 +295,7 @@ nav ul li a:hover {
   }
 }
 /* **********Responsive Education*********** */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 475px){
   .e1{
     flex-direction: column;
   }
