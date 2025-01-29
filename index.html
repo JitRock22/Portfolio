@@ -101,9 +101,21 @@
     <div class="transition transition-2 is-active"></div>
     <header>
       <nav>
-        <div class="nav-head">JIT DAS</div>
+        <div class="">
+          <input type="checkbox" id="check" class="temp">
+      </div>
+        <div class="nav-head">
+          <div class="nav1">
+            <div>JIT DAS</div>
+          </div>
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </div>
         <div class="nav-items">
-          <ul class="nav-bar">
+         <ul class="nav-bar">
             <li><a href="#home">Home</a></li>
             <li><a href="#about_me">About</a></li>
             <li><a href="#education">Education</a></li>
@@ -196,6 +208,14 @@
         loop:1,
       });
     </script>
-    </script>
+
+      <script src="https://kit.fontawesome.com/b50f9a773f.js" crossorigin="anonymous"></script>
+  <script>
+    let hamburger=document.querySelector(".hamburger")
+      hamburger.onclick=function(){
+        navBar=document.querySelector(".nav-items");
+        navBar.classList.toggle("active");
+      }
+  </script>   
   </body>
 </html>
