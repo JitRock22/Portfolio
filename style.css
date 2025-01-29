@@ -314,6 +314,9 @@ nav ul li a:hover {
 }
 /* ***********Responsive Skills*********** */
 @media screen and(max-width: 427px){
+  .fourth{
+    overflow: hidden;
+  }
   .skill1{
     width: 100%;
     font-size: 10px;
